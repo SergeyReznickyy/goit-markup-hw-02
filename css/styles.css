@@ -162,6 +162,9 @@ body {
 }
 
 /* __________PORTFOLIO ST#2_____________ */
+.portfolio {
+  background-color: #f4f4fd;
+}
 .portfolio-title {
   display: none;
 }
@@ -175,6 +178,9 @@ body {
   letter-spacing: 0.04em;
   color: #4d5ae5;
   cursor: pointer;
+}
+.team-img {
+  background-color: #ffffff;
 }
 .portfolio-item-title {
   font-weight: 500;
