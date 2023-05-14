@@ -38,6 +38,7 @@ body {
   color: #2e2f42;
 }
 .header-nav-link {
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
