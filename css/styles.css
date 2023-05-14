@@ -120,6 +120,9 @@ body {
   color: #2e2f42;
 }
 /* -----------------   Team  --------------------- */
+.team {
+  background-color: #f4f4fd;
+}
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -129,6 +132,10 @@ body {
   text-transform: capitalize;
   color: #2e2f42;
 }
+.team-img {
+  background-color: #ffffff;
+}
+
 .team-list-title {
   font-weight: 500;
   font-size: 20px;
@@ -186,9 +193,6 @@ body {
   letter-spacing: 0.04em;
   color: #4d5ae5;
   cursor: pointer;
-}
-.button-filter-active {
-  background-color: #ffffff;
 }
 
 .portfolio-item-title {
