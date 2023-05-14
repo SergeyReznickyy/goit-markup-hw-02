@@ -187,6 +187,9 @@ body {
   color: #4d5ae5;
   cursor: pointer;
 }
+.button-filter-active {
+  background-color: #ffffff;
+}
 
 .portfolio-item-title {
   font-weight: 500;
