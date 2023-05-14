@@ -80,6 +80,11 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
 }
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+  cursor: pointer;
+}
 /*  -----------------   ABOUT  ----------пересмотреть----------*/
 .about-title {
   display: none;
