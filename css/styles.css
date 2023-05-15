@@ -4,11 +4,12 @@
   --brand-color: #4d5ae5;
   --text-color-second: #2e2f42;
   --dark-white-color: #f4f4fd;
+  --white-color: #ffffff;
 }
 body {
   font-family: "Roboto", sans-serif;
   color: var(--text-color);
-  background-color: #ffffff;
+  background-color: var(--white-color);
 }
 
 .list {
@@ -19,14 +20,10 @@ body {
   text-decoration: none;
 }
 
-.link:hover,
-.link:focus {
-  color: var(--active-color);
-}
 .button-filter:hover,
 .button-filter:focus {
   background-color: var(--active-color);
-  color: #ffffff;
+  color: var(--white-color);
 }
 /* -----------------   HEADER  ---------------------- */
 .header-address {
@@ -53,6 +50,10 @@ body {
   letter-spacing: 0.02em;
   color: var(--text-color-second);
 }
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: var(--active-color);
+}
 
 .header-address-link {
   font-style: normal;
@@ -60,6 +61,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
+}
+.header-address-link:hover,
+.header-address-link:focus {
+  color: var(--active-color);
 }
 
 /* -----------------   HERO  ---------------------- */
@@ -71,7 +76,7 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .hero-button {
@@ -83,7 +88,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--white-color);
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -110,11 +115,9 @@ body {
 }
 
 /* -----------------   PRODUKT  --------------------- */
-.portfolio {
-  background-color: var(--dark-white-color);
-}
+
 .produkt-tital {
-  background-color: #ffffff;
+  background-color: var(--white-color);
 
   font-weight: 700;
   font-size: 36px;
@@ -138,7 +141,7 @@ body {
   color: var(--text-color-second);
 }
 .team-img {
-  background-color: #ffffff;
+  background-color: var(--white-color);
 }
 
 .team-list-title {
@@ -182,9 +185,7 @@ body {
 }
 
 /* __________PORTFOLIO ST#2_____________ */
-.portfolio {
-  background-color: var(--dark-white-color);
-}
+
 .portfolio-title {
   display: none;
 }
