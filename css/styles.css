@@ -6,6 +6,7 @@
   --dark-white-color: #f4f4fd;
   --white-color: #ffffff;
 }
+
 body {
   font-family: "Roboto", sans-serif;
   color: var(--text-color);
